@@ -27,7 +27,7 @@ export default function Hero() {
 				<h2 className="text-sm tracking-[15px] ml-2 uppercase text-gray-400">
 					Software Engineer
 				</h2>
-				<h1 className="text-5xl font-semibold px-5">
+				<h1 className="text-5xl font-semibold px-5 mt-7">
 					<p className="mr-3">
 						{text}
 						<Cursor cursorColor="#F7AB0A" />
@@ -36,7 +36,7 @@ export default function Hero() {
 			</div>
 			<div className="flex gap-2 pt-3 z-20">
 				<Link href="#about">
-					<p className="hero-button scroll-smooth">About</p>
+					<p className="hero-button">About</p>
 				</Link>
 				<Link href="#experience">
 					<button className="hero-button">Experience</button>
